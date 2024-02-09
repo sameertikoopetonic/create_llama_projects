@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "scripts": {
     "dev": "NEXT_PUBLIC_CHAT_API=https://salty-worms-cry.loca.lt/api/chat next dev",
-    "build": "next build",
+    "build": "NEXT_PUBLIC_CHAT_API=https://salty-worms-cry.loca.lt/api/chat next build",
     "start": "next start",
     "lint": "next lint"
   },
